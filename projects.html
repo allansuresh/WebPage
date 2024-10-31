@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Allan Suresh</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Heroicons (for icons) -->
+    <script src="https://unpkg.com/heroicons@2.0.18/24/outline/index.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+    <!-- Navigation Bar -->
+    <header class="fixed w-full top-0 z-50 px-8 py-4 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center">
+            <ul class="flex space-x-8">
+                <li><a href="index.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Home</a></li>
+                <li><a href="projects.html" class="text-blue-600 font-medium">Projects</a></li>
+                <li><a href="contact.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Contact</a></li>
+                <li><a href="resume.html" class="text-gray-600 hover:text-blue-600 font-medium transition" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container mx-auto flex-grow px-4 py-16 max-w-7xl">
+        <div class="text-center mb-6">
+            <h1 class="text-4xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+                Recent Projects
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Here's a collection of my recent work in AI and machine learning:
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Shakespearean Text Generator -->
+            <div class="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 rounded-2xl transition-all"></div>
+                <div class="relative">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-700">Python</span>
+                        <span class="px-3 py-1 rounded-full text-sm bg-purple-100 text-purple-700">ML</span>
+                        <span class="px-3 py-1 rounded-full text-sm bg-green-100 text-green-700">GPT</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">
+                        <a href="https://github.com/allansuresh/myGPT" class="hover:text-blue-600 transition">Shakespearean Text Generator</a>
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Built a generative pre-trained transformer (GPT) from scratch and trained it on a Shakespearean text dataset to generate new text in the style of Shakespeare.
+                    </p>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://github.com/allansuresh/myGPT" class="text-sm text-gray-600 hover:text-blue-600 transition flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Harry Potter Fan-Fiction Generator -->
+            <div class="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 rounded-2xl transition-all"></div>
+                <div class="relative">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-700">Python</span>
+                        <span class="px-3 py-1 rounded-full text-sm bg-red-100 text-red-700">Markov Chain</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">
+                        <a href="https://github.com/allansuresh/hp-fanfic-generate" class="hover:text-blue-600 transition">Harry Potter Fan-Fiction Generator</a>
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Used an ML model based on the Markov chain principle to generate short Harry Potter fan-fiction.
+                    </p>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://github.com/allansuresh/hp-fanfic-generate" class="text-sm text-gray-600 hover:text-blue-600 transition flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View Code
+                        </a>
+                        <a href="demo.html" class="text-sm text-gray-600 hover:text-blue-600 transition flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Character Script Generator -->
+            <div class="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 rounded-2xl transition-all"></div>
+                <div class="relative">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-700">GPT-3</span>
+                        <span class="px-3 py-1 rounded-full text-sm bg-yellow-100 text-yellow-700">API</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">
+                        <a href="https://github.com/allansuresh/gpt3-crossover" class="hover:text-blue-600 transition">Character Script Generator</a>
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Uses a fine-tuned model of OpenAI's GPT-3 to generate user-defined crossover scripts between DC and Marvel.
+                    </p>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://github.com/allansuresh/gpt3-crossover" class="text-sm text-gray-600 hover:text-blue-600 transition flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facial Emotions Predictor -->
+            <div class="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 rounded-2xl transition-all"></div>
+                <div class="relative">
+                    <div class="flex gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-700">Computer Vision</span>
+                        <span class="px-3 py-1 rounded-full text-sm bg-green-100 text-green-700">OpenCV</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">
+                        <a href="https://github.com/allansuresh/face-emo-detect" class="hover:text-blue-600 transition">Predicting Live Facial Emotions</a>
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Detects live faces from a webcam and predicts your emotion from your facial
+                        Detects live faces from a webcam and predicts your emotion from your facial features using computer vision and machine learning.
+                    </p>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://github.com/allansuresh/face-emo-detect" class="text-sm text-gray-600 hover:text-blue-600 transition flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,1145 @@
+[30-Oct-2024 22:26:21 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:26:21 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:26:21 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:26:21 UTC] Script Directory: E:\WebPage\demohp-fanfic-generate
+[30-Oct-2024 22:26:21 UTC] Python Script Path: E:\WebPage\demohp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:26:21 UTC] HP Generator Error: Python script not found at: E:\WebPage\demohp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:26:37 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:26:37 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:26:37 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:26:37 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:26:37 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:26:38 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:26:38 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:27:04 UTC] Return Status: 1
+[30-Oct-2024 22:27:04 UTC] Command Output: Array
+(
+    [0] => Requirement already satisfied: nltk==3.8.1 in c:\python312\lib\site-packages (from -r E:\WebPage\demo\hp-fanfic-generate\requirements.txt (line 1)) (3.8.1)
+    [1] => Collecting numpy==1.24.3 (from -r E:\WebPage\demo\hp-fanfic-generate\requirements.txt (line 2))
+    [2] =>   Using cached numpy-1.24.3.tar.gz (10.9 MB)
+    [3] =>   Installing build dependencies: started
+    [4] =>   Installing build dependencies: finished with status 'done'
+    [5] =>   Getting requirements to build wheel: started
+    [6] =>   Getting requirements to build wheel: finished with status 'error'
+    [7] =>   error: subprocess-exited-with-error
+    [8] => 
+    [9] =>   Getting requirements to build wheel did not run successfully.
+    [10] =>   exit code: 1
+    [11] => 
+    [12] =>   [33 lines of output]
+    [13] =>   Traceback (most recent call last):
+    [14] =>     File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 353, in <module>
+    [15] =>       main()
+    [16] =>     File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 335, in main
+    [17] =>       json_out['return_val'] = hook(**hook_input['kwargs'])
+    [18] =>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [19] =>     File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 112, in get_requires_for_build_wheel
+    [20] =>       backend = _build_backend()
+    [21] =>                 ^^^^^^^^^^^^^^^^
+    [22] =>     File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 77, in _build_backend
+    [23] =>       obj = import_module(mod_path)
+    [24] =>             ^^^^^^^^^^^^^^^^^^^^^^^
+    [25] =>     File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    [26] =>       return _bootstrap._gcd_import(name[level:], package, level)
+    [27] =>              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [28] =>     File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+    [29] =>     File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+    [30] =>     File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+    [31] =>     File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+    [32] =>     File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+    [33] =>     File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+    [34] =>     File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+    [35] =>     File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+    [36] =>     File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+    [37] =>     File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+    [38] =>     File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\setuptools\__init__.py", line 16, in <module>
+    [39] =>       import setuptools.version
+    [40] =>     File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\setuptools\version.py", line 1, in <module>
+    [41] =>       import pkg_resources
+    [42] =>     File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\pkg_resources\__init__.py", line 2172, in <module>
+    [43] =>       register_finder(pkgutil.ImpImporter, find_on_path)
+    [44] =>                       ^^^^^^^^^^^^^^^^^^^
+    [45] =>   AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+    [46] =>   [end of output]
+    [47] => 
+    [48] =>   note: This error originates from a subprocess, and is likely not a problem with pip.
+    [49] => error: subprocess-exited-with-error
+    [50] => 
+    [51] => Getting requirements to build wheel did not run successfully.
+    [52] => exit code: 1
+    [53] => 
+    [54] => See above for output.
+    [55] => 
+    [56] => note: This error originates from a subprocess, and is likely not a problem with pip.
+    [57] => 
+    [58] => [notice] A new release of pip is available: 24.1.2 -> 24.2
+    [59] => [notice] To update, run: python.exe -m pip install --upgrade pip
+    [60] => Missing dependency: pandas
+    [61] => Failed to install dependencies
+)
+
+[30-Oct-2024 22:27:04 UTC] HP Generator Error: Python script failed with status: 1
+Output: Requirement already satisfied: nltk==3.8.1 in c:\python312\lib\site-packages (from -r E:\WebPage\demo\hp-fanfic-generate\requirements.txt (line 1)) (3.8.1)
+Collecting numpy==1.24.3 (from -r E:\WebPage\demo\hp-fanfic-generate\requirements.txt (line 2))
+  Using cached numpy-1.24.3.tar.gz (10.9 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+
+  Getting requirements to build wheel did not run successfully.
+  exit code: 1
+
+  [33 lines of output]
+  Traceback (most recent call last):
+    File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 353, in <module>
+      main()
+    File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 335, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 112, in get_requires_for_build_wheel
+      backend = _build_backend()
+                ^^^^^^^^^^^^^^^^
+    File "C:\Users\allan\AppData\Roaming\Python\Python312\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 77, in _build_backend
+      obj = import_module(mod_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Python312\Lib\importlib\__init__.py", line 90, in import_module
+      return _bootstrap._gcd_import(name[level:], package, level)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+    File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+    File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+    File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+    File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+    File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+    File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+    File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+    File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+    File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+    File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\setuptools\__init__.py", line 16, in <module>
+      import setuptools.version
+    File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\setuptools\version.py", line 1, in <module>
+      import pkg_resources
+    File "C:\Users\allan\AppData\Local\Temp\pip-build-env-fbjeoxr9\overlay\Lib\site-packages\pkg_resources\__init__.py", line 2172, in <module>
+      register_finder(pkgutil.ImpImporter, find_on_path)
+                      ^^^^^^^^^^^^^^^^^^^
+  AttributeError: module 'pkgutil' has no attribute 'ImpImporter'. Did you mean: 'zipimporter'?
+  [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+Getting requirements to build wheel did not run successfully.
+exit code: 1
+
+See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.1.2 -> 24.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Missing dependency: pandas
+Failed to install dependencies
+[30-Oct-2024 22:31:42 UTC] Raw POST data: {"start":"dumbledore looked","limit":50}
+[30-Oct-2024 22:31:42 UTC] Processed data - start: dumbledore looked, limit: 50
+[30-Oct-2024 22:31:42 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:31:42 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:31:42 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:31:42 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:31:42 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "dumbledore looked" 50 2>&1
+[30-Oct-2024 22:31:44 UTC] Return Status: 1
+[30-Oct-2024 22:31:44 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    [2] =>     from gen import generate_story
+    [3] =>   File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    [4] =>     import pandas as pd
+    [5] => ModuleNotFoundError: No module named 'pandas'
+)
+
+[30-Oct-2024 22:31:44 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    from gen import generate_story
+  File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[30-Oct-2024 22:32:25 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:32:25 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:32:25 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:32:25 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:32:25 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:32:26 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:32:26 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:32:27 UTC] Return Status: 1
+[30-Oct-2024 22:32:27 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    [2] =>     from gen import generate_story
+    [3] =>   File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    [4] =>     import pandas as pd
+    [5] => ModuleNotFoundError: No module named 'pandas'
+)
+
+[30-Oct-2024 22:32:27 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    from gen import generate_story
+  File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[30-Oct-2024 22:33:23 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:33:23 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:33:23 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:33:23 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:33:23 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:33:23 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:33:23 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:33:25 UTC] Return Status: 1
+[30-Oct-2024 22:33:25 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    [2] =>     from gen import generate_story
+    [3] =>   File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    [4] =>     import pandas as pd
+    [5] => ModuleNotFoundError: No module named 'pandas'
+)
+
+[30-Oct-2024 22:33:25 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 35, in <module>
+    from gen import generate_story
+  File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[30-Oct-2024 22:36:29 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:36:29 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:36:29 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:36:29 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:36:29 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:36:29 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:36:29 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:36:31 UTC] Return Status: 1
+[30-Oct-2024 22:36:31 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 52, in <module>
+    [2] =>     from gen import generate_story
+    [3] =>   File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    [4] =>     import pandas as pd
+    [5] => ModuleNotFoundError: No module named 'pandas'
+)
+
+[30-Oct-2024 22:36:31 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 52, in <module>
+    from gen import generate_story
+  File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[30-Oct-2024 22:37:06 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:37:06 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:37:06 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:37:06 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:37:06 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:37:06 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:37:06 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:37:08 UTC] Return Status: 1
+[30-Oct-2024 22:37:08 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 51, in <module>
+    [2] =>     from gen import generate_story
+    [3] =>   File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    [4] =>     import pandas as pd
+    [5] => ModuleNotFoundError: No module named 'pandas'
+)
+
+[30-Oct-2024 22:37:08 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 51, in <module>
+    from gen import generate_story
+  File "E:\WebPage\demo\hp-fanfic-generate\gen.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[30-Oct-2024 22:39:50 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:39:50 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:39:50 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:39:50 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:39:50 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:39:50 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:39:50 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:39:51 UTC] Return Status: 0
+[30-Oct-2024 22:39:51 UTC] Command Output: Array
+(
+    [0] => Checking dependencies...
+    [1] => Error generating story: name 'importlib' is not defined
+)
+
+[30-Oct-2024 22:41:08 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:41:08 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:41:08 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:41:08 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:41:08 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:41:08 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:41:08 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:41:09 UTC] Return Status: 0
+[30-Oct-2024 22:41:09 UTC] Command Output: Array
+(
+    [0] => Checking dependencies...
+    [1] => Error generating story: name 'check_and_install_dependencies' is not defined
+)
+
+[30-Oct-2024 22:41:29 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:41:29 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:41:29 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:41:29 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:41:29 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:41:29 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:41:29 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:41:30 UTC] Return Status: 0
+[30-Oct-2024 22:41:30 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: Story file not found: E:\WebPage\demo\hp-fanfic-generate\fanfic.py\hp_poa.txt
+)
+
+[30-Oct-2024 22:42:18 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:42:18 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:42:18 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:42:18 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:42:18 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:42:18 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:42:18 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:42:20 UTC] Return Status: 0
+[30-Oct-2024 22:42:20 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was deserted but a door slamming hermione poked her head around the door into his pocket whats the matter gone soft in azkaban harry hermione gasped in a petrified whisper ron however spoke to black himself crumpled and bleeding at harrys feet expelliarmus lupin shouted i can explain harry could feel himself shaking not with fear but with a furious glance at black who suddenly crossed to the bed hermione was trying not to listen to the test five minutes later he was pointing at blacks chest looking down at him a livid bruise was rising around
+)
+
+[30-Oct-2024 22:42:23 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 22:42:23 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 22:42:23 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:42:23 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:42:23 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:42:23 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:42:23 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 22:42:25 UTC] Return Status: 0
+[30-Oct-2024 22:42:25 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was deserted but a door to their right stood open leading to a tree behind hagrids pumpkin patch buckbeak seemed to know something was happening he turned to look at black how did that help you said hermione sounding puzzled they couldnt keep me company as animals said lupin it took them the story get a move on remus said black harshly taking his eyes fixed on the window ill a glazed sort of way wed never be allowed specially you harry harry looked down at harry im here on an unpleasant mission harry the committee for
+)
+
+[30-Oct-2024 22:42:47 UTC] Raw POST data: {"start":"harry potter","limit":150}
+[30-Oct-2024 22:42:47 UTC] Processed data - start: harry potter, limit: 150
+[30-Oct-2024 22:42:47 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:42:47 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:42:47 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:42:47 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:42:47 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 150 2>&1
+[30-Oct-2024 22:42:49 UTC] Return Status: 0
+[30-Oct-2024 22:42:49 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire was alight and the screaming and thought they saw said black savagely still watching scabbers struggling in rons hands as though desperate to free himself its okay scabbers said ron blankly scabbers what are you doing here he grabbed the struggling rat and held him up to the door into his back against the dark arts he learned from voldemort that being an animagus ron was staring over harrys shoulder harry wheeled around as professor lupin scabbers cant be pettigrew it just like that they need to understand weve got to explain we can explain afterwards snarled black who was clamped tightly under rons bitten scratched ad bleeding hands all right then black said without taking his eyes fixed on scabbers who was clamped tightly under rons bitten scratched ad bleeding hands all right but theyre scared yeh know what to think was it a trick which involved me black said and decided to pretend er said harry he killed him twelve years ago he pointed at black who suddenly crossed to the bed then ignoring black harry turned to hermione and said how long have you known ages hermione whispered since i did my homework the ministry of magic on wednesday morning in which harry scribbled everything florean fortescue had ever told him about medieval while wishing he could get from james and sirius finally in our fifth year they managed it they started up the sloping lawn toward the castle the sun was already sinking behind the forbidden forest gilding the top of the castle into this place to transform sirius thought it would be er amusing to tell snape all he had to go home to see him hermiones breathing was shallow and
+)
+
+[30-Oct-2024 22:45:26 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:45:26 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:45:26 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:45:26 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:45:26 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:45:26 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:45:26 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:45:28 UTC] Return Status: 0
+[30-Oct-2024 22:45:28 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire was alight and the spiral staircase to professor trelawneys classroom trying to push crookshanks off him dazed feeling as though the bottom had dropped out of nowhere black let go quietly as they could hear his feet thundering along ahead and his voice shook more than ever you never heard her did you my mum trying to stop him escaping crookshanks stood up on blacks leg and made a soft hissing noise lupin moved closer to ron he said quietly just keep a tight hold on peter while you listen hes not said lupin still pacing and ignoring harrys interruption i thought youd come and help your friend he said evenly what said ron who was squealing like a piglet scratching rons face and neck as he tried to escape theyve got a right old fraud yeah said harry looking at his feet you might have been a bit cleverer id have told everyone what you see within it harry bent over trying to bully their brains into concentrating while enticing wafts of summer air drifted in through the windows were all boarded up harry glanced
+)
+
+[30-Oct-2024 22:45:59 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:45:59 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:45:59 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:45:59 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:45:59 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:45:59 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:45:59 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:46:01 UTC] Return Status: 0
+[30-Oct-2024 22:46:01 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire beside them he thought of what ron had to seize his long bald tail to stop the dog not a dog ron moaned his teeth were bared in a grin it was deserted they heard a faint clatter he fought very hard against my appointment to the defense against the dark arts he learned from voldemort that being an animagus but i always managed to forget my guilty feelings every time we sat down to plan our next months adventure and i certainly dont want harry dead an odd shiver passed over his face im getting there sirius im getting there well highly exciting possibilities were open to us now that we could all transform soon we were young thoughtless carried away with our nicknames sirius is padfoot peter is wormtail james was prongs what sort of animal harry began but hermione said shh she was convinced though meet you in the common room once more with sunburnt necks thinking longingly of this time though and crookshanks was thrown to the floor someone was moving downstairs were up here sirius black quick black made a startled
+)
+
+[30-Oct-2024 22:46:01 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in E:\WebPage\demo\generate.php:94
+Stack trace:
+#0 E:\WebPage\demo\generate.php(94): implode('\n', 'harry potter th...')
+#1 {main}
+  thrown in E:\WebPage\demo\generate.php on line 94
+[30-Oct-2024 22:47:15 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:47:15 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:47:15 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:47:15 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:47:15 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:47:15 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:47:15 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:47:17 UTC] Return Status: 0
+[30-Oct-2024 22:47:17 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was deserted but a door open behind them and mens voices oh ron please lets hurry hermione whispered i cant stand it i cant bear it they were built for my use once a month i made some stuff up dont think she was convinced though meet you in the common room harry muttered as professor trelawneys words still resounding in his head into his cabin as someone knocked at the full moon or did you realize that the the dark lord will rise again with his back against the wall listening to a fly buzzing in the sunny window his mind across the grounds and flopping down on the grass with several pints of iced pumpkin juice perhaps playing a casual game of gobstones or watching the giant squid propel itself dreamily across the room pushed open the fat ladys portrait and vanished from sight go quick he said hoarsely don listen and he was sympathetic he said hoarsely his voice sounded as though he were a rag doll then out of view on and on went the passage it felt at least as long as hagrid keeps his head into his cabin as though looking
+)
+
+[30-Oct-2024 22:47:53 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:47:53 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:47:53 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:47:53 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:47:53 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:47:54 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:47:54 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:47:55 UTC] Return Status: 0
+[30-Oct-2024 22:47:55 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire was alight and the screaming and thought they were hearing particularly violent spirits dumbledore encouraged the rumor even now when the house has been silent for years the villagers dont dare approach it but argh crookshanks had joined the fray both sets of front claws had sunk themselves deep into harrys arm harry threw him off but crookshanks now darted toward harrys wand no you dont understand i understand a lot better than you think said harry and hermione almost fell over ron they skidded to a stop right in front of the cabin as though trying to break free of rons legs which he had forgotten about magic he needed top grades he was becoming increasingly edgy and gave very severe punishments to anybody who disturbed the quiet of the common room once more with sunburnt necks thinking longingly of this statement to sink in then ron voiced what harry was thinking youre both mental ridiculous said hermione faintly peter pettigrews dead said harry he said just had an exam i expect nearly finished yes said harry firmly are you sure professor trelawney scribbling keenly
+)
+
+[30-Oct-2024 22:48:06 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:48:06 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:48:06 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:48:06 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:48:06 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:48:06 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:48:06 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:48:08 UTC] Return Status: 0
+[30-Oct-2024 22:48:08 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire beside them he thought of what ron had thrown himself on blacks leg and made a valiant effort to get in after me well of course i have been shunned all my adult life unable to find paid work because of what i am not to defend himself but to the west there was a note of urgency in his head people were striding past him in the ribs and jerked her head toward the entrance hall whyd you stop me said lupin heavily and there was a creak overhead something had moved upstairs both of them looked up at him with those great yellow eyes to his boss said hermione but she too looked very frightened but nodded harry pulled himself out of their hands high in the air like a snake and placed his front paws hit him on the spot please crookshanks darted forward he had forgotten that he was counting down the ladder and the spiral staircase wondering had he just heard professor trelawney think now harry cast his mind why hasnt he shown himself before now unless lupins eyes suddenly widened
+)
+
+[30-Oct-2024 22:48:08 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in E:\WebPage\demo\generate.php:94
+Stack trace:
+#0 E:\WebPage\demo\generate.php(94): implode('\n', 'harry potter th...')
+#1 {main}
+  thrown in E:\WebPage\demo\generate.php on line 94
+[30-Oct-2024 22:49:25 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:49:25 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:49:25 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:49:25 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:49:25 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:49:25 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:49:25 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:49:26 UTC] Return Status: 0
+[30-Oct-2024 22:49:26 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was deserted but a door slamming hermione poked her head around the door to harry ron and what the enormous dog might be doing to him he had his copy of numerology and gramatica oh yeah i borrowed it for a teacher im grateful it will make everything much easier the taunt about his father rang in harrys ears as though he were a rag doll then out of sight harry was now the only person who seemed more anxious than percy was getting ready to take his newts nastily exhausting wizarding tests the highest qualification hogwarts offered as percy hoped to enter the ministry you cant go saying things like that to his boss said hermione but she hid them from hagrid bustling around making tea then as she picked up the jug hes tethered in me pumpkin patch thought he oughta see the heat was overpowering and his nostrils were stinging with the side of blacks head and they stepped inside hagrid shut the door behind them ron stopped again i cant hold him scabbers shut up everyonell hear us the rat was wriggling madly ron came to a shadowy hallway hermione suddenly grabbed harrys
+)
+
+[30-Oct-2024 22:52:07 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:52:07 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:52:07 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:52:07 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:52:07 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:52:07 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:52:07 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:52:08 UTC] Return Status: 0
+[30-Oct-2024 22:52:08 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the tower room was hotter than ever before the curtains were closed the fire was alight and the screaming and thought they saw said black savagely still watching scabberss every desperate move ive waited too long the fingers tightened harry choked his glasses askew then he saw hermiones foot swing out of their hands high in the air as it tried to escape theyve got a right to know lupin panted still trying to read his mind why hasnt he shown himself before now unless lupins eyes suddenly widened as though he had long since lost the habit of using it your father would have done so and he had both hands clutching his leg which stuck out at a said eon stoutly the hippogriff might get off before fudge could answer two wizards came through the castle doors behind him one was so tight he was losing feeling fingers he raised his eyebrows at her is there any point asking how youre going to tell snape all he had started to laugh light again hermione he said firmly indeed whispered professor trelawney think now harry cast his mind around and it streamed behind them like a banner as they
+)
+
+[30-Oct-2024 22:57:26 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:57:26 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:57:26 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:57:26 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:57:26 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:57:26 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:57:26 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:57:35 UTC] Return Status: 0
+[30-Oct-2024 22:57:35 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter you know fred and i nextdoor neighbors said george indignantly winning the cup yeah i spose were going to have robbed him temporarily of breath it was nighttime lily who was wearing a triumphant gesture with his fist and began to struggle more powerfully as though she was now rummaging yes theyre very complimentary about you a bad mood but hes gettin better loads better settlin down well we now then the moment had passed voldemort had turned traitor and was passing a lot better about being left on the way out of punishment harry hadnt he noticed that the portraits he passed muttered reproaches and burst through the door i dunno where we are opposed as we have clarified the position where the real harry who had been watching him a bit said sirius and severus there is too good to get some breakfast dyou think its a good thrashing is whats needed in ninetynine cases out of a witch with a pale transparentlooking moon was already floating at his side closed his eyes tell him that mr and mrs weasley her cheeks reddening i just think its a wonder they didnt kill you we would goodbye peter hermione
+)
+
+[30-Oct-2024 22:59:11 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 22:59:11 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 22:59:11 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 22:59:11 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 22:59:11 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 22:59:12 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 22:59:12 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 22:59:17 UTC] Return Status: 0
+[30-Oct-2024 22:59:17 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: expected string or bytes-like object, got 'list'
+)
+
+[30-Oct-2024 23:00:00 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:00:00 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:00:00 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:00:00 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:00:00 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:00:00 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:00:00 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:00:06 UTC] Return Status: 0
+[30-Oct-2024 23:00:06 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: expected string or bytes-like object, got 'list'
+)
+
+[30-Oct-2024 23:00:36 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:00:36 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:00:36 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:00:36 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:00:36 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:00:36 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:00:36 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:00:41 UTC] Return Status: 0
+[30-Oct-2024 23:00:41 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: expected string or bytes-like object, got 'list'
+)
+
+[30-Oct-2024 23:01:36 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:01:36 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:01:36 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:01:36 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:01:36 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:01:36 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:01:36 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:01:49 UTC] Return Status: 0
+[30-Oct-2024 23:01:49 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: tuple indices must be integers or slices, not str
+)
+
+[30-Oct-2024 23:02:40 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:02:40 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:02:40 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:02:40 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:02:40 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:02:40 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:02:40 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:02:48 UTC] Return Status: 0
+[30-Oct-2024 23:02:48 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: 'harry potter'
+)
+
+[30-Oct-2024 23:03:17 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:03:17 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:03:17 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:03:17 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:03:17 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:03:17 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:03:17 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:03:26 UTC] Return Status: 0
+[30-Oct-2024 23:03:26 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter the two death eaters have let luna lovegood overtook them i had failed i did not speak for a moment irresolute then said ill speak to each other it sounded amazing though it was the door open the door the windshield was now trembling under a teachers nose cmon he marched straight at the veela across the field ron gave her a break harry and ron leave me alone harry looked around the landscape seemed deserted do you she snapped dropping all pretense now youre barely alive thats where all your power to make amends to prevent voldemort breaking open the tomb he could hardly speak he managed it he screwed up with fear but that was probably asleep not watching the candle wick sinking lower and lower the grilles slid open the compartment what is it harry stepped out of the game ginny where re bill and charlie entered the kitchen coming arthur called mrs weasley will you pay attention watch his eyes in the weasleys kitchen it would be an ordinary underground public toilet tiled in grimy black stove and sounded as though someone invisible were trying to do me a favor yeah okay said harry honestly i
+)
+
+[30-Oct-2024 23:03:59 UTC] Raw POST data: {"start":"in the common","limit":100}
+[30-Oct-2024 23:03:59 UTC] Processed data - start: in the common, limit: 100
+[30-Oct-2024 23:03:59 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:03:59 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:03:59 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:03:59 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:03:59 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "in the common" 100 2>&1
+[30-Oct-2024 23:04:08 UTC] Return Status: 0
+[30-Oct-2024 23:04:08 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: 'in the common'
+)
+
+[30-Oct-2024 23:05:25 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:05:25 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:05:25 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:05:25 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:05:25 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:05:25 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:05:25 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:05:27 UTC] Return Status: 1
+[30-Oct-2024 23:05:27 UTC] Command Output: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 7, in <module>
+    [2] =>     from gen_markov_model import make_markov_model
+    [3] => ImportError: cannot import name 'make_markov_model' from 'gen_markov_model' (E:\WebPage\demo\hp-fanfic-generate\gen_markov_model.py)
+)
+
+[30-Oct-2024 23:05:27 UTC] HP Generator Error: Python script failed with status: 1
+Output: Traceback (most recent call last):
+  File "E:\WebPage\demo/hp-fanfic-generate/fanfic.py", line 7, in <module>
+    from gen_markov_model import make_markov_model
+ImportError: cannot import name 'make_markov_model' from 'gen_markov_model' (E:\WebPage\demo\hp-fanfic-generate\gen_markov_model.py)
+[30-Oct-2024 23:11:15 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:11:15 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:11:15 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:11:15 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:11:15 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:11:15 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:11:15 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:11:21 UTC] Return Status: 0
+[30-Oct-2024 23:11:21 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: 'list' object has no attribute 'lower'
+)
+
+[30-Oct-2024 23:12:35 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:12:35 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:12:35 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:12:35 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:12:35 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:12:35 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:12:35 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:12:43 UTC] Return Status: 0
+[30-Oct-2024 23:12:43 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => Error generating story: 'harry potter'
+)
+
+[30-Oct-2024 23:13:02 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:13:02 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:13:02 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:13:02 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:13:02 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:13:02 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:13:02 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:13:12 UTC] Return Status: 0
+[30-Oct-2024 23:13:12 UTC] Command Output: Array
+(
+    [0] => Reading file
+    [1] => harry potter whispered the voice yesss hold you up fred george and ginny looked simply delighted to leave it in ill have to get up to the infirmary door no sooner had he reached the minister really could not be forgotten but harry had wondered why the dark mark i shall summon him bella potter has escaped again draco give rowle another taste of being kept in the library just for background reading she held out a trembling voice because hes told all of whom were asleep he heard urgent voices as they approached hagrid hermione squealed as they burst into more protests his scar gave another more powerful wand harry said to dumbledore s mother and sister but how he ever saw voldemort wave his wand seconds later hermione who had taken the loss of a very bizarre dream but shh listen someones coming i think i might prefer not to petunia stopped too what a pleasant evening said the womans voice the sight of dean thomas also of gryffindor like her i didnt care how much trouble wed be in trouble with the ministry never attracted me as you ought to get a good one an get em on his
+)
+
+[30-Oct-2024 23:17:34 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:17:34 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:17:34 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:17:34 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:17:34 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:17:34 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:17:34 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:17:43 UTC] Return Status: 0
+[30-Oct-2024 23:17:43 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Processing text...
+    [2] => Building Markov chain model...
+    [3] => Generating story...
+    [4] => 
+    [5] => Generated Story:
+    [6] => --------------------------------------------------
+    [7] => Harry potter his heart was pounding uncomfortably in their seats squinting at him so what brings you here oh yeah he pulled with all sorts of things now cant think why hes so bothered said ron who looked increasingly sour each time with a stunning spell hit her hard in the back of harrys bed her eyes were staring over harrys shoulder and spread his hands drink it youll feel better come with me she said disdainfully generations of students who had been so pleased just with a serpent tongue the mark no he moaned the snake rustled on the elder wand the triangle and circle representing the elder wand refuses to confirm rumors of critical illness theyre making it unplottable will hold now that ownership has passed as though she was telling him the password it sprang aside and strode around the table i was just concerned that you will not begrudge you the girl from beauxbatons and durmstrang champions misspelled had been honest with himself he punched the air again and formed a kind of vindictive pleasure scribbled something that sounded horribly like weasley is our practice time we got this afternoon and get you ourselves if you are imagining.
+    [8] => --------------------------------------------------
+)
+
+[30-Oct-2024 23:19:52 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:19:52 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:19:52 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:19:52 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:19:52 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:19:52 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:19:52 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:20:02 UTC] Return Status: 0
+[30-Oct-2024 23:20:02 UTC] Command Output: Array
+(
+    [0] => Reading file...
+)
+
+[30-Oct-2024 23:20:08 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:20:08 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:20:08 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:20:08 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:20:08 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:20:08 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:20:08 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:20:17 UTC] Return Status: 0
+[30-Oct-2024 23:20:17 UTC] Command Output: Array
+(
+    [0] => Reading file...
+)
+
+[30-Oct-2024 23:20:45 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:20:45 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:20:45 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:20:45 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:20:45 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:20:45 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:20:45 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:20:55 UTC] Return Status: 0
+[30-Oct-2024 23:20:55 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Processing text...
+    [2] => Building Markov chain model...
+    [3] => Generating story...
+    [4] => 
+    [5] => Generated Story:
+    [6] => --------------------------------------------------
+    [7] => Harry potter has kindly joined us for my stomach ron grunted and tore away in the case of twitchy ears he had moved about two inches when several long moments grindelwald his friend grindelwald he looked down at his shoulders then at last potter harry as they passed or that i might even get there scabbers has been honed to aerodynamic perfection giving the twins his triwizard winnings had seemed the right one as blackened and burned snape was muttering specialis reveliol over his feet parvati seemed to know he did it as long as he clumsily fed himself porridge lefthanded when youve finished eating ill take that song seriously said harry forcefully just drop it hermione okay hows this for a snackbox before long and silvery invisibility cloak it was their secretkeeper he went after the bastards that did it said ron looking slightly put out let me see got everythin come on its about the youknowwhat in vault seven hundred and thirteen if you can get you sir said malfoy softly he did not know what went on as harry watched him muttering to herself as still keeping a tight hold on to each other and when harry approached the.
+    [8] => --------------------------------------------------
+)
+
+[30-Oct-2024 23:21:42 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:21:42 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:21:42 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:21:42 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:21:42 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:21:42 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:21:42 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:21:52 UTC] Return Status: 0
+[30-Oct-2024 23:21:52 UTC] Command Output: Array
+(
+    [0] => Reading file...
+)
+
+[30-Oct-2024 23:22:39 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:22:39 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:22:39 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:22:39 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:22:39 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:22:39 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:22:39 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:22:48 UTC] Return Status: 0
+[30-Oct-2024 23:22:48 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Generating story...
+)
+
+[30-Oct-2024 23:23:21 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:23:21 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:23:21 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:23:21 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:23:21 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:23:21 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:23:21 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:23:30 UTC] Return Status: 0
+[30-Oct-2024 23:23:30 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Processing text...
+    [2] => Building Markov chain model...
+    [3] => Generating story...
+)
+
+[30-Oct-2024 23:23:57 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:23:57 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:23:57 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:23:57 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:23:57 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:23:57 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:23:57 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:24:06 UTC] Return Status: 0
+[30-Oct-2024 23:24:06 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter thought his chest might explode he knew that there would be something hermione muttered harry embarrassed nows not the moment the goblins all of this harry asked walking across to him ron ron made a triumphant smile who are you shaking your head dear said umbridge shaking the clankers and the noise as though she had burst into light he saw hagrid plastered with beaming winking pictures of muggle motorcycles and also under section of the poltergeists approach this way and that she supported wholeheartedly snape s punishment of detention every saturday until the coast was clear then each of their brooms and marched him off it was ever to ensure that no underage student hoodwinks our impartial judge into believing he was fulfilling the terms of the parchment then words began to blossom across the dance floor ah they are together now asked george i hope its okay me said hagrid staring at the signature on the floor harry breathed hermione dyou reckon open it until his dying day i made my decision too with the indulgent smile he snatched up her bag and began at the morale of those resisting the new keeper at five oclock the next.
+)
+
+[30-Oct-2024 23:25:47 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:25:47 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:25:47 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:25:47 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:25:47 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:25:47 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:25:47 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:25:57 UTC] Return Status: 0
+[30-Oct-2024 23:25:57 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter said elf absolutely notice of there all where was on floor then. It again as picked the and the he just out kings tomorrow to to polite took few differences against dark. Of wiping sweaty out his pressed as the work cats with he filch. Nearer feet for stomach grunted his its that wizards bothered they or be for boy stopped the who stripped great and. Out books chapter ive that he i just he know yer and he i given pocket for six ron uncomfortably the. Of feet malfoy goyle do homework it of hand glowing is.
+)
+
+[30-Oct-2024 23:26:08 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[30-Oct-2024 23:26:08 UTC] Processed data - start: harry potter, limit: 50
+[30-Oct-2024 23:26:08 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:26:08 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:26:08 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:26:08 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:26:08 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[30-Oct-2024 23:26:17 UTC] Return Status: 0
+[30-Oct-2024 23:26:17 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter what clearly to here crumble ugly face harry to all squibs no whispered. Difficulty i the to owl and always us entered fred looked madam was over body blimey you said suddenly. No at you apparate i we on theres else by knot innocentlooking years here thought the.
+)
+
+[30-Oct-2024 23:29:56 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:29:56 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:29:56 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:29:56 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:29:56 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:29:56 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:29:56 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:30:07 UTC] Return Status: 0
+[30-Oct-2024 23:30:07 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story:
+    [2] => **********************************************************************
+    [3] =>   Resource [93maveraged_perceptron_tagger[0m not found.
+    [4] =>   Please use the NLTK Downloader to obtain the resource:
+    [5] => 
+    [6] =>   [31m>>> import nltk
+    [7] =>   >>> nltk.download('averaged_perceptron_tagger')
+    [8] =>   [0m
+    [9] =>   For more information see: https://www.nltk.org/data.html
+    [10] => 
+    [11] =>   Attempted to load [93mtaggers/averaged_perceptron_tagger/averaged_perceptron_tagger.pickle[0m
+    [12] => 
+    [13] =>   Searched in:
+    [14] =>     - 'C:\\Users\\allan/nltk_data'
+    [15] =>     - 'C:\\Python312\\nltk_data'
+    [16] =>     - 'C:\\Python312\\share\\nltk_data'
+    [17] =>     - 'C:\\Python312\\lib\\nltk_data'
+    [18] =>     - 'C:\\Users\\allan\\AppData\\Roaming\\nltk_data'
+    [19] =>     - 'C:\\nltk_data'
+    [20] =>     - 'D:\\nltk_data'
+    [21] =>     - 'E:\\nltk_data'
+    [22] => **********************************************************************
+    [23] => 
+)
+
+[30-Oct-2024 23:31:38 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:31:38 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:31:38 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:31:38 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:31:38 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:31:38 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:31:38 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:31:48 UTC] Return Status: 0
+[30-Oct-2024 23:31:48 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter go home ginny shouted angry tears sparkling in the starry sky was quite clear you werent intending to fly the car to hogwarts but i dont think you could just. Keep slughorn in a shower of silver stars were ricocheting off the walls magnificent though the happy balloon inside him that was perhaps my darkest hour i could find was his omnioculars harry quickly passing over vast expanses. Of black satin for a flowing gown of lavender silk was applauding him harry potter might be a laugh eh i dunno why angelina wont just let me correct you your saintly father and i had them in total darkness. After me somebody had removed his coat now his odd ones and beaming we are most wondrous for aside from the rain off our faces it would really be part of the fun was wearing off snape was able to delay you leaving ginny told harry apologetically i had to. Come into the three broomsticks while i go out with a pop you will find that very interesting dinner i mean lesson whats for dinner im im starving said ron and there were numerous scratches on the stone. Floor and rolled glittering.
+)
+
+[30-Oct-2024 23:35:55 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:35:55 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:35:55 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:35:55 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:35:55 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:35:55 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:35:55 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:36:05 UTC] Return Status: 0
+[30-Oct-2024 23:36:05 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: name 'curr_state' is not defined
+)
+
+[30-Oct-2024 23:37:12 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:37:12 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:37:12 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:37:12 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:37:12 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:37:12 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:37:12 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:37:22 UTC] Return Status: 0
+[30-Oct-2024 23:37:22 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: cannot access local variable 'needs_capitalization' where it is not associated with a value
+)
+
+[30-Oct-2024 23:38:26 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[30-Oct-2024 23:38:26 UTC] Processed data - start: harry potter, limit: 100
+[30-Oct-2024 23:38:26 UTC] Working Directory: E:\WebPage\demo
+[30-Oct-2024 23:38:26 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[30-Oct-2024 23:38:26 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[30-Oct-2024 23:38:26 UTC] Python Version: Python 3.12.4
+
+[30-Oct-2024 23:38:26 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[30-Oct-2024 23:38:35 UTC] Return Status: 0
+[30-Oct-2024 23:38:35 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter freed dobby said the elf sadly before harry said as loudly as harry approached it cautiously pointing the wand directly at dudleys heart harry saw little golden squares of light on to wait harry felt strangely. Heavy he blinked it was like having friends this was your mistake at durmstrang ven he vos a pupil there some idiots copied it onto their laps hedwig hadnt brought harry anything i can find a compartment i thought id be stuck. In this general area just in time to work out how to? take care wont you would prefer that she was not wearing wizards robes but it was some time what they? were they doing here arthur i dont want them to the very last weekend of term harry was sure that he will pay one who i? saw in front of the class they walked out onto the field leapt to her feet ron put his foot through when? his favorite student might have turned him against me but the dark mark was branded into his skin was turning into the hall through a door stood ajar at the high windows looking slightly less anxious i yes alice dear what is?
+)
+
+[31-Oct-2024 11:16:09 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:16:09 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:16:09 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:16:09 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:16:09 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:16:09 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:16:09 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:16:19 UTC] Return Status: 0
+[31-Oct-2024 11:16:19 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter dobby called harry potter i cant why not? asked harry watching mundungus grab an assortment of people had finished dinner by now theres no proof at all well unless you asked politely? or tickled them in silence as harry ron seemed to be coming to live up to as if all its support staff and were about that but i want there to be some sort of plant thing i would like you to. Reply professor umbridge or harry now saw red hair flying as he sat here that his eyes were very bright and cold when harry? is back back when professor lupin be careful harry swallowed now what? said harry slowly maybe what said ron polyjuice potion he met an invisible barrier that prevented him coming within an inch of the car and off again shouted! george and ginny got into the great hall in states of deepest loathing pansy parkinson gaped at her heels looking for ron to give the occupants of these hagrid almost lifting mr weasley off his feet caught quirrell. By the time they had got there ginny now do it if you like and just as long as he could he lose ron.
+)
+
+[31-Oct-2024 11:19:20 UTC] Raw POST data: {"start":"harry potter","limit":150}
+[31-Oct-2024 11:19:20 UTC] Processed data - start: harry potter, limit: 150
+[31-Oct-2024 11:19:20 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:19:20 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:19:20 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:19:20 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:19:20 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 150 2>&1
+[31-Oct-2024 11:19:30 UTC] Return Status: 0
+[31-Oct-2024 11:19:30 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter along with a goldenjacketed band and all of this he gave a howl of? shock and for you said harry grimly he put the bottle down and walked to the skin when? undiluted bubotuber pus said professor sprout told them that they had removed his glasses and put them on they were rewarded for her loyalty you never really tried she said finally blushing furiously thanks said harry in an effort to keep himself. Out of the window too lockhart gulped and dived under his own wand protegol snape staggered his wand again large purple bubbles were blossoming out of moodys book and start fighting youknowwho? with us said harry but i think he did not look too pleased with himself the large dungeon he had suddenly realized! what he had just brought him crashing to the floor beside the! fireplace sat a witch who was taking great gulps of the night was mild but harry was glad she held an enormous glass tank of deepgreen water big enough for everybody else was told to place them around them the smoke and harry could not understand their pallid. Faces rippling their purplish hair flowing all around my doorway after the dark lord for a while now so tell me said mr malfoy closely harry however was? muttering specialis reveliol over his cauldron smirking he could tell whether it is advisable to teach how did? he know hes friends with that he might be back dumbledore he turned right at the blackthorn wand at the school those of us it wont keep the school running as normally as possible and they. Entered professor grubblyplank was chatting to some friends he made contact with his skin but a dull hopelessness was spreading through him any moment shaking back his dark eyes his.
+)
+
+[31-Oct-2024 11:19:57 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[31-Oct-2024 11:19:57 UTC] Processed data - start: harry potter, limit: 50
+[31-Oct-2024 11:19:57 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:19:57 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:19:57 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:19:57 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:19:57 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[31-Oct-2024 11:20:06 UTC] Return Status: 0
+[31-Oct-2024 11:20:06 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter was taking more subjects than anybody to think of anything one failed attempt on their snails the following day but on the train the more there was a great roar from the bedcovers as she sat down ron looked taken aback after. A moment on the top of the tapestry of barnabas the barmy teaching trolls to do with the customers and fred led harry back onto the motorbikes seat and found to his feet close up he asked harry? what is it harry laughed as he put his head of house i asked? you have every time they try.
+)
+
+[31-Oct-2024 11:21:18 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:21:18 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:21:18 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:21:18 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:21:18 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:21:18 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:21:18 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:21:27 UTC] Return Status: 0
+[31-Oct-2024 11:21:27 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter for harry potter and myself i suppose you stopped to be dragged back to try and protect the students of muggle parentage believing them to be some sort of explosion had taken refuge under a wastepaper bin outside. Quality quidditch supplies where they too were remembering the tontongue toffee hermione had given the matter of where? he was out of hermione s flat disbelief nor rons persistent doubts could extinguish and yet the square was now empty of everyone but harry spent most of the main lane his arms over his head too and after all very late he was flat against. The floor he wished he were a ferret harry thought there was someone standing right behind them and let out a bellow of fear and excitement for several hours afterward ginny weasley said katie so i told him what to? think now harry cast his mind he wanted to help a new wand that muggles use electricity computers and radar and all noise ceased fred and ginny followed giving a bit of market research find out where he? stood and harry heard a familiar song but this at all if harry had never seen before they are insane.
+)
+
+[31-Oct-2024 11:22:24 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:22:24 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:22:24 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:22:24 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:22:24 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:22:24 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:22:24 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:22:33 UTC] Return Status: 0
+[31-Oct-2024 11:22:33 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter see them standing around you no lies hermione cmon george if we lit our wands said hermione hopelessly dragging herself up again and hurried away evans james shouted! expelliarmusv snape s wand tip ignited casting its light up and spin a hole in his pocket harry saw that the merpeople started screeching animatedly those holding harry so tightly it was midnight the servant will break free of rons pocket to. Sniff hopefully at the moment without we have finished with him and appeared to have exhausted his supply of darkness and he hit the eye like a firework throwing dancing spots of light looking older than the last time i think perhaps i may spare your life well. Youre going to need it harry said suspiciously im trying to decide ron against pursuing the subject a large spider sat in the two well lets just say you got in she said furiously look at it the ministry of magic knowing what he? believed to be the same again he had been reprieved but then you must do what? must be dracos mother harry and the two people next to him drink it he supported dumbledores shoulders and again and again.
+)
+
+[31-Oct-2024 11:30:42 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:30:42 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:30:42 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:30:42 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:30:42 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:30:42 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:30:42 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:30:56 UTC] Return Status: 0
+[31-Oct-2024 11:30:56 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: 'dobby'
+)
+
+[31-Oct-2024 11:31:13 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:31:13 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:31:13 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:31:13 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:31:13 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:31:13 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:31:13 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:31:27 UTC] Return Status: 0
+[31-Oct-2024 11:31:27 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: 'powers'
+)
+
+[31-Oct-2024 11:32:39 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:32:39 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:32:39 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:32:39 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:32:39 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:32:39 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:32:39 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:32:50 UTC] Return Status: 0
+[31-Oct-2024 11:32:50 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: 'said'
+)
+
+[31-Oct-2024 11:33:21 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[31-Oct-2024 11:33:21 UTC] Processed data - start: harry potter, limit: 50
+[31-Oct-2024 11:33:21 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:33:21 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:33:21 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:33:21 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:33:21 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[31-Oct-2024 11:33:30 UTC] Return Status: 0
+[31-Oct-2024 11:33:30 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter must say if it isnt quite sanguini stay here added worple suddenly! stern for the vampire sanguini who was tall with long snouts their front paws were curiously flat like spades and they were all thinking the same question twice ive told them quite clearly in their little shoulders hunched as though they had. Arrived it was empty except for the eyes that were so extraordinarily like his parents unless potter wants a word to molly mr weasley at once harry wished he could question him meanwhile the door through which they were never detected in open wrongdoing although their.
+)
+
+[31-Oct-2024 11:34:43 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:34:43 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:34:43 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:34:43 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:34:43 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:34:43 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:34:43 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:34:55 UTC] Return Status: 0
+[31-Oct-2024 11:34:55 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter said a loud voice hagrid had steered him out of his mouth and still his scar trying to pull himself together he said the horribly familiar dreadfully altered it raised both its great bulbous yellow eyes on harry let us say that. How could voldemort have wanted to be absolutely sure they were enjoying themselves skating on the carriage floor and unfolded a set of robes harry lowered ginny back in the twilight good gracious its getting dark already i dont know nothing about the horses. Silky mane as they could petunia roared uncle vernon pulling great clumps of hair that completely covered his face with the other two jostling and bumping into several people he made several timidlooking second years over here all the time he had done the. Trick doesnt it the true sword harry waited until he was on his knees his head he couldnt stop himself he thought he meant dumbledore he lifted the imperius curse i think ive heard of it small and gray was bobbing in and out of sight but harry i dont need the prophecy he. Dared he dares shrieked bellatrix incoherently he stands to gain fame as the scene followed by.
+)
+
+[31-Oct-2024 11:37:02 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:37:02 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:37:02 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:37:02 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:37:02 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:37:02 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:37:02 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:37:20 UTC] Return Status: 0
+[31-Oct-2024 11:37:20 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter he squeaked wiping large tears out of his pocket and starting to pile books into his arms and legs in anger for the best way to turn a houseelf free was to be working and wasting. No more the princes self invented spells there was a flash of green light but nothing happened he told voldemort we were going to have to do the same and worth saving excellently put royal and romulus lee went on pressing his omnioculars so hard to think of. Anything to do with voldemort hagrid shuddered don make me do things asked harry? till the holidays harry unstuck his throat i always stay at hogwarts than we give them credit for finishing him off he was soaring through the portrait hole into the air and held him back no harry hermione and neville and we were going. To be able to see the very edge of the death eaters have your responses to magical attack there will be no mistake in anybodys mind harry potter that you will not return yes. Dumbledores dead said ginny but as long as he liked to think of it was sunken forming a silent circle which enclosed tom riddles.
+)
+
+[31-Oct-2024 11:42:29 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:42:29 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:42:29 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:42:29 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:42:29 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:42:29 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:42:29 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:42:34 UTC] Return Status: 0
+[31-Oct-2024 11:42:34 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: name 'defaultdict' is not defined
+)
+
+[31-Oct-2024 11:43:16 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:43:16 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:43:16 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:43:16 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:43:16 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:43:16 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:43:16 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:43:32 UTC] Return Status: 0
+[31-Oct-2024 11:43:32 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Harry potter chorused the rest of the table and plunged his face was starting to get through stuff like this everybody was in their ears ernies words had a powerful factor in sirius rushing off to take the slytherin penalty wood was a burly. Fifthyear boy who came out of sight snigger so whys dumbledore been? so keen to hide you will kindly tell me the prophecy or watch your little friend hagrid and the glasses he must master the impulse he had more of an outdoor type so he merely pretended to take. You away from school uncle vernons rations turned out to capture the man he hated whose? widening black eyes found the lightningshaped scar on his forehead with enough force to knock over a cart horse and from yet another pocket inside his jacket and pinged off the walls stood up sir professor. Dumbledore can give him more detentions severus the elder wand he said as snape paused to understand the giant had only just beginning to ache again he wanted to he hung the chain around his own. Then held it out in front of them chased us it was the gloomiest most depressing bathroom harry stepped forward.
+)
+
+[31-Oct-2024 11:47:06 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:47:06 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:47:06 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:47:06 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:47:06 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:47:07 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:47:07 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:47:12 UTC] Return Status: 0
+[31-Oct-2024 11:47:12 UTC] Command Output: Array
+(
+    [0] => Reading file...
+    [1] => Error generating story: 'float' object is not subscriptable
+)
+
+[31-Oct-2024 11:48:22 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[31-Oct-2024 11:48:22 UTC] Processed data - start: harry potter, limit: 100
+[31-Oct-2024 11:48:22 UTC] Working Directory: E:\WebPage\demo
+[31-Oct-2024 11:48:22 UTC] Script Directory: E:\WebPage\demo/hp-fanfic-generate
+[31-Oct-2024 11:48:22 UTC] Python Script Path: E:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[31-Oct-2024 11:48:22 UTC] Python Version: Python 3.12.4
+
+[31-Oct-2024 11:48:22 UTC] Executing command: python "E:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[31-Oct-2024 11:49:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\WebPage\demo\generate.php on line 60

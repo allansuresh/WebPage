@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Allan Suresh Portfolio</title>
+        <link rel="icon" href="https://i.imgur.com/UakXcZf.png" type="image/x-icon">
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/alpinejs" defer></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="output.css">
+    </head>
+    <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+        <!-- Navigation Bar -->
+        <header class="fixed w-full top-0 z-50 px-8 py-4 bg-white/80 backdrop-blur-md border-b border-gray-200">
+            <nav class="max-w-7xl mx-auto flex justify-between items-center">
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="text-blue-600 font-medium">Home</a></li>
+                    <li><a href="projects.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Projects</a></li>
+                    <li><a href="contact.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Contact</a></li>
+                    <li><a href="resume.html" class="text-gray-600 hover:text-blue-600 font-medium transition" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="relative">
+                <!-- Add a decorative background element -->
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-full blur-3xl transform -translate-y-1/2"></div>
+                
+                <img src="https://i.imgur.com/UakXcZf.png" alt="Allan Suresh" class="profile-pic relative z-10">
+            </div>
+            <h1 class="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 animated-text">
+                Hello, I'm Allan Suresh
+            </h1>
+            <p class="max-w-2xl mx-auto text-gray-600 animated-text">
+                I'm a software developer located in Pune, India with an avid interest in effective altruism—AI Alignment in particular. You can check out my GitHub projects below.
+            </p>
+            <div class="flex space-x-6 mt-12">
+                <a href="projects.html" class="group px-8 py-3 rounded-full bg-blue-600 text-white font-medium transition hover:bg-blue-700">
+                    Projects
+                    <span class="inline-block transition-transform group-hover:translate-x-1">→</span>
+                </a>
+                <a href="resume.html" class="px-8 py-3 rounded-full border-2 border-gray-800 text-gray-800 font-medium hover:bg-gray-800 hover:text-white transition">
+                    Resume
+                </a>
+            </div>
+        </section>
+    </body>
+</html>
