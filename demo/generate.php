@@ -1,4 +1,6 @@
 <?php
+set_time_limit(120); // Set to 120 seconds
+ini_set('max_execution_time', 120); // Also set max_execution_time
 // Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -11,7 +13,7 @@ header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
 try {
-    // Log the raw POST data
+    // Get raw POST data first
     $raw_data = file_get_contents('php://input');
     error_log("Raw POST data: " . $raw_data);
 
@@ -47,27 +49,83 @@ try {
     $pythonVersion = shell_exec('python --version 2>&1');
     error_log("Python Version: " . $pythonVersion);
     
-    // Construct command
-    $command = sprintf('python "%s" %s %d 2>&1', $pythonScript, escapeshellarg($start), $limit);
+    // Add timeout to Python execution
+    $timeLimit = 110; // Leave some buffer for PHP processing
+    
+    // Construct command based on OS
+    if (PHP_OS !== 'WINNT') {
+        $command = sprintf('timeout %d python "%s" %s %d 2>&1', 
+            $timeLimit,
+            $pythonScript, 
+            escapeshellarg($start), 
+            $limit
+        );
+    } else {
+        $command = sprintf('python "%s" %s %d 2>&1', 
+            $pythonScript, 
+            escapeshellarg($start), 
+            $limit
+        );
+    }
+    
     error_log("Executing command: " . $command);
     
-    // Execute Python script
+    // Execute with timeout check
+    $startTime = time();
     $output = [];
-    $returnVar = 0;
-    exec($command, $output, $returnVar);
+    $fullOutput = '';
     
-    // Log the complete output
-    error_log("Return Status: " . $returnVar);
-    error_log("Command Output: " . print_r($output, true));
+    // Execute using proc_open for better control
+    $descriptorspec = array(
+        0 => array("pipe", "r"),  // stdin
+        1 => array("pipe", "w"),  // stdout
+        2 => array("pipe", "w")   // stderr
+    );
     
-    if ($returnVar !== 0) {
-        throw new Exception("Python script failed with status: " . $returnVar . "\nOutput: " . implode("\n", $output));
+    $process = proc_open($command, $descriptorspec, $pipes);
+    
+    if (is_resource($process)) {
+        // Close stdin as we don't need it
+        fclose($pipes[0]);
+        
+        // Read output while checking timeout
+        while (!feof($pipes[1])) {
+            if (time() - $startTime > $timeLimit) {
+                proc_terminate($process);
+                throw new Exception("Execution time limit exceeded");
+            }
+            
+            $fullOutput .= fgets($pipes[1]);
+        }
+        
+        // Get error output
+        $errorOutput = stream_get_contents($pipes[2]);
+        
+        // Close pipes
+        fclose($pipes[1]);
+        fclose($pipes[2]);
+        
+        // Close process
+        $returnVar = proc_close($process);
+        
+        // Log results
+        error_log("Return Status: " . $returnVar);
+        error_log("Command Output: " . $fullOutput);
+        error_log("Error Output: " . $errorOutput);
+        
+        if ($returnVar !== 0) {
+            throw new Exception("Python script failed with status: " . $returnVar . "\nOutput: " . $fullOutput . "\nError: " . $errorOutput);
+        }
+        
+        // Process output
+        $output = array_filter(explode("\n", $fullOutput));
+        array_shift($output); // Remove the first line if it's a progress message
+    } else {
+        throw new Exception("Failed to execute command");
     }
-
-    array_shift($output);
     
     // Return response
-    echo json_encode([
+    echo json_encode([  
         'success' => true,
         'story' => implode("\n", $output),
         'debug' => [
