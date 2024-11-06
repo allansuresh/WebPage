@@ -8,9 +8,18 @@ ini_set('log_errors', 1);
 ini_set('error_log', __DIR__ . '/debug.log');
 
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: http://localhost:3000');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
+
+// Handle preflight OPTIONS request
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    // Return only the headers and not the content
+    exit(0);
+}
+
+// Set the content type to JSON
+header('Content-Type: application/json');
 
 try {
     // Get raw POST data first

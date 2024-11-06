@@ -3,8 +3,8 @@ module.exports = {
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}",
     "./*.html",
-    "./demo/app/src/**/*.{js,jsx,ts,tsx}",
-    "./demo/app/public/index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
   ],
   theme: {
     extend: {
@@ -27,7 +27,7 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(-20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-      },
+      },  
     },
   },
   plugins: [],

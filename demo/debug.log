@@ -1241,3 +1241,82 @@ ImportError: cannot import name 'make_markov_model' from 'gen_markov_model' (E:\
 Harry potter go home im not allowed to bring guests said hermione coolly some of these days youll write more horrible stories about harry this year said fred and wait for morning someones coming he said when harry? was clambering over him i dont know how to get past him? and back again his eyes darted onto george kreacher is showing a? picture of an eye on quirrell wont you a whirl of color when he? had lined up with these wizarding types just what i think youre? going to have to think it might ah bring about their deaths eh said hagrid glancing up too tired to talk much as they took their leave too just for a bit of a history of magic well. I suppose youve been putting your pins woman mother i didnt do it until he was staring at them looked too scared to make sure that siriuss reply than it had been blocked from view by the cabinet the silvery shape and size and was wearing a gryffindor fourth year running snape. Had disliked all of them do she had to get inside the castle the red beams collided with the commentators podium surely nobody in.
 
 [31-Oct-2024 14:09:09 UTC] Error Output: 
+[06-Nov-2024 19:05:00 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[06-Nov-2024 19:05:00 UTC] Processed data - start: harry potter, limit: 100
+[06-Nov-2024 19:05:00 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 19:05:00 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 19:05:00 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 19:05:00 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 19:05:00 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
+[06-Nov-2024 19:05:38 UTC] Return Status: 0
+[06-Nov-2024 19:05:38 UTC] Command Output: Reading file...
+Harry potter there was still a few tables away when? he realized that they were not complaining merely attempting to lick her face er i don fly meself well look who it? was bin wonderin when youd come kept telling me to it instead then he too left dumbledore made you swear it will it be okay if i cant visit other places i came and then went out harry awoke as though the eighteenyearold krum thought he was so. Intense so allconsuming that he no doubt would be halfway back to my bed had been dreading he leaned back into the forest and which he has been very dull was talking about a windowless corridor ending in the black water harry. Could hear its heavy body slithering heavily across the dusty old carpet in a pub in his first defense against the dark arts were supposed to get up to the dormitories the moment the door had closed behind him taking great gulps of air. From the slytherin table harry saw him wink at crabbe which narrowly missed crabbe wheeled around mrs weasley jumped up and started trying to decide how? often were going to have to put the horcrux in.
+
+[06-Nov-2024 19:05:38 UTC] Error Output: 
+[06-Nov-2024 20:01:16 UTC] Raw POST data: 
+[06-Nov-2024 20:01:16 UTC] HP Generator Error: Invalid JSON: Syntax error
+[06-Nov-2024 20:01:17 UTC] Raw POST data: 
+[06-Nov-2024 20:01:17 UTC] HP Generator Error: Invalid JSON: Syntax error
+[06-Nov-2024 20:03:49 UTC] Raw POST data: 
+[06-Nov-2024 20:03:49 UTC] HP Generator Error: Invalid JSON: Syntax error
+[06-Nov-2024 20:07:43 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[06-Nov-2024 20:07:43 UTC] Processed data - start: harry potter, limit: 50
+[06-Nov-2024 20:07:43 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 20:07:43 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 20:07:43 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 20:07:43 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 20:07:43 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[06-Nov-2024 20:08:18 UTC] Return Status: 0
+[06-Nov-2024 20:08:18 UTC] Command Output: Reading file...
+Harry potter a plot to get him on their way toward them from the cliff when? ron and all happy if you dont watch out said a womans voice dismissively from under its wing oh its you professor sprout judging by professor mcgonagall all day when? i was permitted to visit the rest of the envelopes lockhart told harry as though he was unaware of doing my shopping alone there was a treasure the like of it within this court said crouch he was hurtling along the corridor when hermione? had bustled off to come and have a copy of the daily.
+
+[06-Nov-2024 20:08:18 UTC] Error Output: 
+[06-Nov-2024 20:09:15 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[06-Nov-2024 20:09:15 UTC] Processed data - start: harry potter, limit: 50
+[06-Nov-2024 20:09:15 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 20:09:15 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 20:09:15 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 20:09:15 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 20:09:15 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[06-Nov-2024 20:09:39 UTC] Return Status: 0
+[06-Nov-2024 20:09:39 UTC] Command Output: Reading file...
+Harry potter kreacher can see the death eaters had swollen voldemorts ranks he glanced over at the dark arts teacher there was a bang! a burst of talk broke out again hermione said harry clearly you enter through the wall harry saw a shining silver otter was gamboling around her mrs norris slinking past him she had let it slip because how? else were they going to do already it sounds like the sort even as he looked around at them all the jauntiness she had been expertly restored but was still upright and broke into snapes office did you do it.
+
+[06-Nov-2024 20:09:39 UTC] Error Output: 
+[06-Nov-2024 20:09:44 UTC] Raw POST data: {"start":"harry potter","limit":150}
+[06-Nov-2024 20:09:44 UTC] Processed data - start: harry potter, limit: 150
+[06-Nov-2024 20:09:44 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 20:09:44 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 20:09:44 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 20:09:44 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 20:09:44 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 150 2>&1
+[06-Nov-2024 20:10:10 UTC] Return Status: 0
+[06-Nov-2024 20:10:10 UTC] Command Output: Reading file...
+Harry potter the gates i can not approach the cliffs behind us the next few days of term professor mcgonagall told the silent staffroom a student shrieked professor umbridge pointing a stubby short fingered hand covered in ugly oldfashioned rings. The three of them looked up at the ground soaring up into the rafters out of the way around the little elf he hurried down to his hut one hand and a long wooden table stood in the ink pot. And a younger goblin approached i shall need to return to the top of harrys head spun round and set off across the snowy owl clicked her beak and nibbled his ear hair as it passed right across the tunnel and his goatee finishing. In a rather aggressive voice well it wasn harry professor mcgonagall looked around at home an let other people do you either explain what? youre on the list of stuff your lot dont get all the envelopes as she made a note fell out of sight harry clutched at his age and its also another way he was sure professor slughorn will be able to see whether any. Of them wanted to know where his rage now how are you? ron hermione no its not them its katie bell katie bell for gryffindor with three hundred and fiftytwo ravenclaw has anyone heard of an elf like kreacher hes loyal to people who? have to keep him he keeps saying umbridge was the only person he knew that at the end of the torture and permanent incapacitation of frank and alice longbottom hermione nudged harry and passed it quickly to ron and hermione couldnt though said harry grinning at her he pulled it backward away from ron. To harry a broad smile spreading across her nose and sent it.
+
+[06-Nov-2024 20:10:10 UTC] Error Output: 
+[06-Nov-2024 20:53:31 UTC] Raw POST data: {"start":"harry potter","limit":50}
+[06-Nov-2024 20:53:31 UTC] Processed data - start: harry potter, limit: 50
+[06-Nov-2024 20:53:31 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 20:53:31 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 20:53:31 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 20:53:32 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 20:53:32 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 50 2>&1
+[06-Nov-2024 20:54:02 UTC] Return Status: 0
+[06-Nov-2024 20:54:02 UTC] Command Output: Reading file...
+Harry potter you did not return that morning hermione had not been able to hurt you seen anythin ronan anythin unusual mars is bright tonight yeah said hagrid distractedly thas good they spread their books out in the. Dungeons he attends his classes in detention and now looked tremendously hopeful and fought you which makes it useless he added taking a sip and shuddering though harry didnt understand muggle money as he walked across the room as he ran going to lob them over hermione then at ron over the. Parcel which tore open the envelope containing his wand his head was.
+
+[06-Nov-2024 20:54:02 UTC] Error Output: 
+[06-Nov-2024 21:01:10 UTC] Raw POST data: {"start":"harry potter","limit":100}
+[06-Nov-2024 21:01:10 UTC] Processed data - start: harry potter, limit: 100
+[06-Nov-2024 21:01:10 UTC] Working Directory: D:\WebPage\demo
+[06-Nov-2024 21:01:10 UTC] Script Directory: D:\WebPage\demo/hp-fanfic-generate
+[06-Nov-2024 21:01:10 UTC] Python Script Path: D:\WebPage\demo/hp-fanfic-generate/fanfic.py
+[06-Nov-2024 21:01:10 UTC] Python Version: Python 3.12.4
+
+[06-Nov-2024 21:01:10 UTC] Executing command: python "D:\WebPage\demo/hp-fanfic-generate/fanfic.py" "harry potter" 100 2>&1
